@@ -1,5 +1,5 @@
 # server.py
-from mcp.server.fastmcp import FastMCP
+from mcp.server import MCPServer
 import requests
 import json
 from datetime import datetime
@@ -8,15 +8,14 @@ from dotenv import load_dotenv
 from typing import List, Dict, Any
 import logging
 import sys
-from fastapi import FastAPI
-import uvicorn
 
 # Configure logging with more detailed format
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.StreamHandler(sys.stdout)
+        logging.FileHandler("mcp_server.log"),  # Log to file instead of stdout to avoid interfering with stdio transport
+        logging.StreamHandler(sys.stderr)  # Log errors to stderr
     ]
 )
 logger = logging.getLogger(__name__)
@@ -33,11 +32,8 @@ for var in required_vars:
     else:
         logger.info(f"Found environment variable: {var}")
 
-# Create FastAPI app
-app = FastAPI()
-
 # Create an MCP server
-mcp = FastMCP("RestaurantMenuAPI", app=app)
+mcp = MCPServer("RestaurantMenuAPI")
 logger.info("MCP Server initialized with name: Restaurant Menu API")
 
 @mcp.tool()
@@ -240,22 +236,12 @@ async def get_category_items(restaurant_id: int, branch_id: int, brand_id: str, 
         raise Exception(f"Error fetching category items: {str(e)}")
 
 if __name__ == "__main__":
-    import argparse
-    
-    parser = argparse.ArgumentParser(description='Restaurant Menu MCP Server')
-    parser.add_argument('--host', type=str, default='0.0.0.0', help='Host to bind to')
-    parser.add_argument('--port', type=int, default=8000, help='Port to listen on')
-    args = parser.parse_args()
-    
     logger.info("Starting Restaurant Menu API MCP Server...")
     logger.info("Server configuration:")
-    logger.info(f"- Host: {args.host}")
-    logger.info(f"- Port: {args.port}")
-    logger.info(f"- Base URL: {os.getenv('BASE_URL_ECOM_V2', 'Not set')}")
     logger.info("- Available tools:")
     logger.info("  1. get_restaurant_menu: Fetch menu categories")
     logger.info("  2. get_category_items: Fetch items for a specific category")
     logger.info("\nServer is ready to accept requests...")
     
-    # Run the server using uvicorn
-    uvicorn.run(app, host=args.host, port=args.port)
+    # Start the MCP server with stdio transport
+    mcp.run_stdio()

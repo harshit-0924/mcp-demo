@@ -1,0 +1,37 @@
+# Smithery configuration file: https://smithery.ai/docs/config#smitheryyaml
+
+startCommand:
+  type: stdio
+  configSchema:
+    # JSON Schema defining the configuration options for the MCP.
+    type: object
+    required:
+      - baseUrlEcomV2
+      - authorization
+      - uuid
+    properties:
+      baseUrlEcomV2:
+        type: string
+        description: Base URL for the ECOM V2 API endpoint.
+      authorization:
+        type: string
+        description: Authorization token for API access.
+      uuid:
+        type: string
+        description: UUID to be used for API requests.
+  commandFunction:
+    # A JS function that produces the CLI command based on the given config to start the MCP on stdio.
+    |-
+    (config) => ({
+      command: 'python',
+      args: ['server.py'],
+      env: {
+         BASE_URL_ECOM_V2: config.baseUrlEcomV2,
+         AUTHORIZATION: config.authorization,
+         UUID: config.uuid
+      }
+    })
+  exampleConfig:
+    baseUrlEcomV2: https://api.example.com
+    authorization: Bearer some_dummy_token
+    uuid: 123e4567-e89b-12d3-a456-426614174000

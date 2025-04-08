@@ -1,0 +1,1985 @@
+{
+    "restaurant_id": 255,
+    "brandId": "7c15f9e7-cec4-11ed-8648-129754d6b903",
+    "menu_type": [
+        {
+            "menu_id": 77,
+            "menu_name": "Menú",
+            "menu_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/q_auto,f_auto,fl_lossy/v1584642765/prod/menu_type/file1584642765417menu_type_qivdfl.jpg",
+            "menu_description": "Menú Delivery",
+            "sequence": 1,
+            "brand_id": "7c15f9e7-cec4-11ed-8648-129754d6b903",
+            "menu_category": [
+                {
+                    "menu_id": 77,
+                    "category_id": 3895,
+                    "category_name": "TBMT Corazon",
+                    "category_image": "",
+                    "category_description": "",
+                    "category_display_text": "TBMT Corazon",
+                    "category_description_v1": [
+                        {
+                            "language": "en",
+                            "description": ""
+                        }
+                    ],
+                    "category_display_text_v1": [
+                        {
+                            "language": "en",
+                            "display_text": "Tapioca Black Milk Tea (Heart cup)"
+                        }
+                    ],
+                    "cat_items": []
+                },
+                {
+                    "menu_id": 77,
+                    "category_id": 4145,
+                    "category_name": "Serie Red Velvet BIO",
+                    "category_image": null,
+                    "category_description": "",
+                    "category_display_text": "Red Velvet ",
+                    "category_description_v1": [
+                        {
+                            "language": null,
+                            "description": ""
+                        }
+                    ],
+                    "category_display_text_v1": [
+                        {
+                            "language": null,
+                            "display_text": ""
+                        }
+                    ],
+                    "cat_items": [
+                        {
+                            "menu_id": 77,
+                            "category_id": 4145,
+                            "item_id": 23214,
+                            "item_name": "Red velvet Smoothie BIO",
+                            "item_description": "Red velvet Smoothie",
+                            "item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/f_auto,q_auto,fl_lossy/v1736962525/prod/menu_item/file1736962525340kiosk_menu_image_ab5gmn.jpg",
+                            "item_display_text": "Red velvet Smoothie",
+                            "inventory_product_json": {
+                                "name": "Red Velvet Milk tea caliente BIO",
+                                "product_id": "B-7410"
+                            },
+                            "price": 124,
+                            "tax_rate": 16,
+                            "tax_id": [
+                                {
+                                    "tax_id": "425a195c-3b37-11ed-af0e-42010ad46021"
+                                }
+                            ],
+                            "ieps_tax": {
+                                "status": 0
+                            },
+                            "order_type": [],
+                            "item_description_v1": [
+                                {
+                                    "language": null,
+                                    "description": ""
+                                }
+                            ],
+                            "item_display_text_v1": [
+                                {
+                                    "language": null,
+                                    "display_text": ""
+                                }
+                            ],
+                            "brand_id": "7c15f9e7-cec4-11ed-8648-129754d6b903",
+                            "isPackage": 0,
+                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c",
+                            "cat_items_modifiercat": [
+                                {
+                                    "modifier_category_id": 95,
+                                    "item_id": 23214,
+                                    "modifier_caetgory_name": "Azúcar",
+                                    "display_text": "Nivel de endulzante:",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": "en",
+                                            "display_text": "Sweetener level"
+                                        }
+                                    ],
+                                    "display_modifiers_image": true,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 12026,
+                                            "modifier_category_id": 95,
+                                            "modifier_item_name": "Azucar 0",
+                                            "modifier_item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/v1726608995/prod/modifier_image/file1726608995797modifier_item_dmqhye.jpg",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 0 ",
+                                                "product_id": "T-14C0"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 1,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12027,
+                                            "modifier_category_id": 95,
+                                            "modifier_item_name": "Azucar 1",
+                                            "modifier_item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/v1726609008/prod/modifier_image/file1726609007958modifier_item_tcpzzm.jpg",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 1 ",
+                                                "product_id": "T-1411"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 2,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12029,
+                                            "modifier_category_id": 95,
+                                            "modifier_item_name": "Azucar 2",
+                                            "modifier_item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/v1735352970/prod/modifier_image/file1735352970703modifier_item_ga7k8k.jpg",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 2 ",
+                                                "product_id": "T-1412"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 3,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12028,
+                                            "modifier_category_id": 95,
+                                            "modifier_item_name": "Azucar 3",
+                                            "modifier_item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/v1735352965/prod/modifier_image/file1735352965834modifier_item_h3m8po.jpg",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 3 ",
+                                                "product_id": "T-1413"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 4,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12030,
+                                            "modifier_category_id": 95,
+                                            "modifier_item_name": "Azucar 4",
+                                            "modifier_item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/v1726609024/prod/modifier_image/file1726609023850modifier_item_ajakhy.jpg",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 4 ",
+                                                "product_id": "T-1414"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 5,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 20230,
+                                            "modifier_category_id": 95,
+                                            "modifier_item_name": "Splenda 1",
+                                            "modifier_item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/v1726609028/prod/modifier_image/file1726609028839modifier_item_x3feh8.jpg",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Splenda Nivel 1 ",
+                                                "product_id": "T-14A2"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 6,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 20231,
+                                            "modifier_category_id": 95,
+                                            "modifier_item_name": "Splenda 2",
+                                            "modifier_item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/v1726609034/prod/modifier_image/file1726609034020modifier_item_xn6r2x.jpg",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Splenda Nivel 2 ",
+                                                "product_id": "T-14A3"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 7,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 3473,
+                                    "item_id": 23214,
+                                    "modifier_caetgory_name": "Tamaño +20",
+                                    "display_text": "Escoge el tamaño",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 22309,
+                                            "modifier_category_id": 3473,
+                                            "modifier_item_name": "Grande",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 11,
+                                                "att_name": "Grande",
+                                                "att_category": "Tamaño"
+                                            },
+                                            "price": 25,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 22310,
+                                            "modifier_category_id": 3473,
+                                            "modifier_item_name": "Mediano",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 12,
+                                                "att_name": "Mediano",
+                                                "att_category": "Tamaño"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 4015,
+                                    "item_id": 23214,
+                                    "modifier_caetgory_name": "Topping Red velvet",
+                                    "display_text": "Escoge el de tu agrado",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 24508,
+                                            "modifier_category_id": 4015,
+                                            "modifier_item_name": "Milk Foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Milk foam red velvet topping ",
+                                                "product_id": "T-1476"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 24511,
+                                            "modifier_category_id": 4015,
+                                            "modifier_item_name": "Chesse foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Chesse Foam preparado Topping ",
+                                                "product_id": "T-1475"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 94,
+                                    "item_id": 23214,
+                                    "modifier_caetgory_name": "Leche",
+                                    "display_text": "Elige tu leche - extra:",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": "en",
+                                            "display_text": "Choose your milk:"
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 12829,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Entera",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 3,
+                                                "att_name": "Entera",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12830,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Deslactosada Light Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 7,
+                                                "att_name": "Deslactosada light",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12831,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Deslactosada Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 5,
+                                                "att_name": "Deslactosada",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12832,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Light",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 4,
+                                                "att_name": "Light",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12833,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Almendras Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 6,
+                                                "att_name": "Almendra",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 12,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12834,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Coco Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 8,
+                                                "att_name": "Coco",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 12,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 3800,
+                                    "item_id": 23214,
+                                    "modifier_caetgory_name": "Topping 4",
+                                    "display_text": "Tu bebida lleva maximo 3 ",
+                                    "is_required": 0,
+                                    "max_input": 1,
+                                    "min_input": 0,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 23545,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca N.X1",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca Nivel 1 ",
+                                                "product_id": "T-14B0"
+                                            },
+                                            "price": 15,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23547,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Milk Foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Milk foam preparado Topping ",
+                                                "product_id": "T-1474"
+                                            },
+                                            "price": 17,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23548,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Coco Jelly(Solo frío",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Gelatina de coco Topping ",
+                                                "product_id": "T-1453"
+                                            },
+                                            "price": 20,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23549,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Creme Bulee",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Cremee Brule Topping ",
+                                                "product_id": "T-143A"
+                                            },
+                                            "price": 17,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23550,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Oreo",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Galletas Oreo Molidas Topping ",
+                                                "product_id": "T-1450"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 35807,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca Blanca",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca blanca Topping ",
+                                                "product_id": "T-14B4"
+                                            },
+                                            "price": 18,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 35808,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca Fresa ",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca blanca sabor fresa Topping ",
+                                                "product_id": "T-14B6"
+                                            },
+                                            "price": 20,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "menu_id": 77,
+                            "category_id": 4145,
+                            "item_id": 23217,
+                            "item_name": "Red velvet Milk T.  BIO",
+                            "item_description": "Red velvet Milk Tea Frío",
+                            "item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/f_auto,q_auto,fl_lossy/v1736962396/prod/menu_item/file1736962396697kiosk_menu_image_uzb2su.jpg",
+                            "item_display_text": "Red velvet Milk Tea Frío",
+                            "inventory_product_json": {
+                                "name": "Red Velvet Milk tea caliente BIO",
+                                "product_id": "B-7410"
+                            },
+                            "price": 104,
+                            "tax_rate": 16,
+                            "tax_id": [
+                                {
+                                    "tax_id": "425a195c-3b37-11ed-af0e-42010ad46021"
+                                }
+                            ],
+                            "ieps_tax": {
+                                "status": 0
+                            },
+                            "order_type": [],
+                            "item_description_v1": [
+                                {
+                                    "language": null,
+                                    "description": ""
+                                }
+                            ],
+                            "item_display_text_v1": [
+                                {
+                                    "language": null,
+                                    "display_text": ""
+                                }
+                            ],
+                            "brand_id": "7c15f9e7-cec4-11ed-8648-129754d6b903",
+                            "isPackage": 0,
+                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c",
+                            "cat_items_modifiercat": [
+                                {
+                                    "modifier_category_id": 3473,
+                                    "item_id": 23217,
+                                    "modifier_caetgory_name": "Tamaño +20",
+                                    "display_text": "Escoge el tamaño",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 22309,
+                                            "modifier_category_id": 3473,
+                                            "modifier_item_name": "Grande",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 11,
+                                                "att_name": "Grande",
+                                                "att_category": "Tamaño"
+                                            },
+                                            "price": 25,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 22310,
+                                            "modifier_category_id": 3473,
+                                            "modifier_item_name": "Mediano",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 12,
+                                                "att_name": "Mediano",
+                                                "att_category": "Tamaño"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 94,
+                                    "item_id": 23217,
+                                    "modifier_caetgory_name": "Leche",
+                                    "display_text": "Elige tu leche - extra:",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": "en",
+                                            "display_text": "Choose your milk:"
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 12829,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Entera",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 3,
+                                                "att_name": "Entera",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12830,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Deslactosada Light Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 7,
+                                                "att_name": "Deslactosada light",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12831,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Deslactosada Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 5,
+                                                "att_name": "Deslactosada",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12832,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Light",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 4,
+                                                "att_name": "Light",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12833,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Almendras Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 6,
+                                                "att_name": "Almendra",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 12,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12834,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Coco Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 8,
+                                                "att_name": "Coco",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 12,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 4015,
+                                    "item_id": 23217,
+                                    "modifier_caetgory_name": "Topping Red velvet",
+                                    "display_text": "Escoge el de tu agrado",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 24508,
+                                            "modifier_category_id": 4015,
+                                            "modifier_item_name": "Milk Foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Milk foam red velvet topping ",
+                                                "product_id": "T-1476"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 24511,
+                                            "modifier_category_id": 4015,
+                                            "modifier_item_name": "Chesse foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Chesse Foam preparado Topping ",
+                                                "product_id": "T-1475"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 3800,
+                                    "item_id": 23217,
+                                    "modifier_caetgory_name": "Topping 4",
+                                    "display_text": "Tu bebida lleva maximo 3 ",
+                                    "is_required": 0,
+                                    "max_input": 1,
+                                    "min_input": 0,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 23545,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca N.X1",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca Nivel 1 ",
+                                                "product_id": "T-14B0"
+                                            },
+                                            "price": 15,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23547,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Milk Foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Milk foam preparado Topping ",
+                                                "product_id": "T-1474"
+                                            },
+                                            "price": 17,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23548,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Coco Jelly(Solo frío",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Gelatina de coco Topping ",
+                                                "product_id": "T-1453"
+                                            },
+                                            "price": 20,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23549,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Creme Bulee",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Cremee Brule Topping ",
+                                                "product_id": "T-143A"
+                                            },
+                                            "price": 17,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23550,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Oreo",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Galletas Oreo Molidas Topping ",
+                                                "product_id": "T-1450"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 35807,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca Blanca",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca blanca Topping ",
+                                                "product_id": "T-14B4"
+                                            },
+                                            "price": 18,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 35808,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca Fresa ",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca blanca sabor fresa Topping ",
+                                                "product_id": "T-14B6"
+                                            },
+                                            "price": 20,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "menu_id": 77,
+                            "category_id": 4145,
+                            "item_id": 23377,
+                            "item_name": "Red velvet Milk T.  BIO ",
+                            "item_description": "Red velvet Milk T.  BIO",
+                            "item_image": "https://res.cloudinary.com/http-foodbot-ai/image/upload/f_auto,q_auto,fl_lossy/v1738346544/prod/menu_item/file1738346544576kiosk_menu_image_jfmuyx.png",
+                            "item_display_text": "Red velvet Milk T. Caliente",
+                            "inventory_product_json": {
+                                "name": "Red Velvet Milk tea caliente PLA",
+                                "product_id": "B-7509"
+                            },
+                            "price": 104,
+                            "tax_rate": 16,
+                            "tax_id": [
+                                {
+                                    "tax_id": "425a195c-3b37-11ed-af0e-42010ad46021"
+                                }
+                            ],
+                            "ieps_tax": {
+                                "status": 0
+                            },
+                            "order_type": [],
+                            "item_description_v1": [
+                                {
+                                    "language": null,
+                                    "description": ""
+                                }
+                            ],
+                            "item_display_text_v1": [
+                                {
+                                    "language": null,
+                                    "display_text": ""
+                                }
+                            ],
+                            "brand_id": "7c15f9e7-cec4-11ed-8648-129754d6b903",
+                            "isPackage": 0,
+                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c",
+                            "cat_items_modifiercat": [
+                                {
+                                    "modifier_category_id": 94,
+                                    "item_id": 23377,
+                                    "modifier_caetgory_name": "Leche",
+                                    "display_text": "Elige tu leche - extra:",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": "en",
+                                            "display_text": "Choose your milk:"
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 12829,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Entera",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 3,
+                                                "att_name": "Entera",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12830,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Deslactosada Light Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 7,
+                                                "att_name": "Deslactosada light",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12831,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Deslactosada Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 5,
+                                                "att_name": "Deslactosada",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12832,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Light",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 4,
+                                                "att_name": "Light",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12833,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Almendras Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 6,
+                                                "att_name": "Almendra",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 12,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 12834,
+                                            "modifier_category_id": 94,
+                                            "modifier_item_name": "Coco Extra",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "att_code": 8,
+                                                "att_name": "Coco",
+                                                "att_category": "Tipo de Leche"
+                                            },
+                                            "price": 12,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 3334,
+                                    "item_id": 23377,
+                                    "modifier_caetgory_name": "Nivel de jarabe ",
+                                    "display_text": "Jarabe",
+                                    "is_required": 0,
+                                    "max_input": 1,
+                                    "min_input": 0,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 21676,
+                                            "modifier_category_id": 3334,
+                                            "modifier_item_name": "Sin jarabe",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 0 ",
+                                                "product_id": "T-14C0"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 21677,
+                                            "modifier_category_id": 3334,
+                                            "modifier_item_name": "Jarabe N1",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 1 ",
+                                                "product_id": "T-1411"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 35782,
+                                            "modifier_category_id": 3334,
+                                            "modifier_item_name": "Jarabe N2",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Azúcar Nivel 2 ",
+                                                "product_id": "T-1412"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 3800,
+                                    "item_id": 23377,
+                                    "modifier_caetgory_name": "Topping 4",
+                                    "display_text": "Tu bebida lleva maximo 3 ",
+                                    "is_required": 0,
+                                    "max_input": 1,
+                                    "min_input": 0,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 23545,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca N.X1",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca Nivel 1 ",
+                                                "product_id": "T-14B0"
+                                            },
+                                            "price": 15,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23547,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Milk Foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Milk foam preparado Topping ",
+                                                "product_id": "T-1474"
+                                            },
+                                            "price": 17,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23548,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Coco Jelly(Solo frío",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Gelatina de coco Topping ",
+                                                "product_id": "T-1453"
+                                            },
+                                            "price": 20,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23549,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Creme Bulee",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Cremee Brule Topping ",
+                                                "product_id": "T-143A"
+                                            },
+                                            "price": 17,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 23550,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Oreo",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Galletas Oreo Molidas Topping ",
+                                                "product_id": "T-1450"
+                                            },
+                                            "price": 10,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 35807,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca Blanca",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca blanca Topping ",
+                                                "product_id": "T-14B4"
+                                            },
+                                            "price": 18,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 35808,
+                                            "modifier_category_id": 3800,
+                                            "modifier_item_name": "Tapioca Fresa ",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Tapioca blanca sabor fresa Topping ",
+                                                "product_id": "T-14B6"
+                                            },
+                                            "price": 20,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "modifier_category_id": 4015,
+                                    "item_id": 23377,
+                                    "modifier_caetgory_name": "Topping Red velvet",
+                                    "display_text": "Escoge el de tu agrado",
+                                    "is_required": 1,
+                                    "max_input": 1,
+                                    "min_input": 1,
+                                    "item_quantity": 1,
+                                    "display_text_v1": [
+                                        {
+                                            "language": null,
+                                            "display_text": ""
+                                        }
+                                    ],
+                                    "display_modifiers_image": false,
+                                    "cat_items_modifiercat_modifieritems": [
+                                        {
+                                            "modifier_item_id": 24508,
+                                            "modifier_category_id": 4015,
+                                            "modifier_item_name": "Milk Foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Milk foam red velvet topping ",
+                                                "product_id": "T-1476"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        },
+                                        {
+                                            "modifier_item_id": 24511,
+                                            "modifier_category_id": 4015,
+                                            "modifier_item_name": "Chesse foam",
+                                            "modifier_item_image": "",
+                                            "inventory_modifier_item_json": {
+                                                "name": "Chesse Foam preparado Topping ",
+                                                "product_id": "T-1475"
+                                            },
+                                            "price": 0,
+                                            "tax_rate": 0,
+                                            "is_tax_rate_same": 1,
+                                            "tax_id": [],
+                                            "linked_menu_item": 0,
+                                            "sequence": 0,
+                                            "product_tax_id": null,
+                                            "ieps_tax": null,
+                                            "modifier_item_name_v1": [
+                                                {
+                                                    "language": null,
+                                                    "modifier_item_name": ""
+                                                }
+                                            ],
+                                            "linked_product": "",
+                                            "price_list_id": "4dea80c1-cf50-44ed-b217-a32a9c37120c"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

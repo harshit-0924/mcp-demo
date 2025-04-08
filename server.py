@@ -1,5 +1,5 @@
 # server.py
-from mcp.server import MCPServer
+from mcp.server.fastmcp import FastMCP
 import requests
 import json
 from datetime import datetime
@@ -14,8 +14,8 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler("mcp_server.log"),  # Log to file instead of stdout to avoid interfering with stdio transport
-        logging.StreamHandler(sys.stderr)  # Log errors to stderr
+        logging.FileHandler("mcp_server.log"),
+        logging.StreamHandler(sys.stderr)
     ]
 )
 logger = logging.getLogger(__name__)
@@ -32,8 +32,9 @@ for var in required_vars:
     else:
         logger.info(f"Found environment variable: {var}")
 
+
 # Create an MCP server
-mcp = MCPServer("RestaurantMenuAPI")
+mcp = FastMCP("RestaurantMenuAPI")
 logger.info("MCP Server initialized with name: Restaurant Menu API")
 
 @mcp.tool()
@@ -236,6 +237,7 @@ async def get_category_items(restaurant_id: int, branch_id: int, brand_id: str, 
         raise Exception(f"Error fetching category items: {str(e)}")
 
 if __name__ == "__main__":
+    
     logger.info("Starting Restaurant Menu API MCP Server...")
     logger.info("Server configuration:")
     logger.info("- Available tools:")
@@ -243,5 +245,5 @@ if __name__ == "__main__":
     logger.info("  2. get_category_items: Fetch items for a specific category")
     logger.info("\nServer is ready to accept requests...")
     
-    # Start the MCP server with stdio transport
-    mcp.run_stdio()
+    # Run the FastAPI app with uvicorn
+    mcp.run(transport='stdio')

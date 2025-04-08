@@ -1,7 +1,7 @@
+mcp[cli]>=0.1.0
+requests==2.31.0
+python-dotenv==1.0.0
+pydantic==2.11.2
 fastapi==0.109.2
 uvicorn==0.27.1
-python-dotenv>=1.0.0
-requests>=2.31.0
-python-multipart==0.0.6
-pydantic==2.11.2
-mcp-server>=0.1.0 
+python-multipart==0.0.6 

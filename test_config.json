@@ -1,0 +1,26 @@
+{
+  "BASE_URL_ECOM_V2": "https://orderv2.foodbot.ai/api",
+  "AUTHORIZATION": "FCN2M4E-Y3J4TNS-HD07D04-YEQWTTC",
+  "UUID": "7b2a2a11-f0e4-4d57-8b40-7680f3afcd69",
+  "test_cases": [
+    {
+      "name": "Get Restaurant Menu Test",
+      "method": "get_restaurant_menu",
+      "params": {
+        "restaurant_id": 255,
+        "branch_id": 2942,
+        "brand_id": "7c15f9e7-cec4-11ed-8648-129754d6b903"
+      }
+    },
+    {
+      "name": "Get Category Items Test",
+      "method": "get_category_items",
+      "params": {
+        "restaurant_id": 255,
+        "branch_id": 2942,
+        "brand_id": "7c15f9e7-cec4-11ed-8648-129754d6b903",
+        "category_name": "Red Velvet"
+      }
+    }
+  ]
+} 

@@ -1,0 +1,36 @@
+type: stdio
+
+configSchema:
+  type: object
+  properties:
+    BASE_URL_ECOM_V2:
+      type: string
+      description: Base URL for the ecommerce API v2
+    AUTHORIZATION:
+      type: string
+      description: Authorization token for API access
+    UUID:
+      type: string
+      description: UUID for API access
+  required:
+    - BASE_URL_ECOM_V2
+    - AUTHORIZATION
+    - UUID
+
+commandFunction: |
+  function getCommand(config) {
+    return {
+      command: "python",
+      args: ["server.py"],
+      env: {
+        BASE_URL_ECOM_V2: config.BASE_URL_ECOM_V2,
+        AUTHORIZATION: config.AUTHORIZATION,
+        UUID: config.UUID,
+        PYTHONUNBUFFERED: "1"
+      }
+    };
+  }
+
+build:
+  dockerfile: Dockerfile
+  dockerBuildPath: . 
